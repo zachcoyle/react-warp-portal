@@ -1,6 +1,7 @@
 import React from 'react'
+import createReactClass from 'create-react-class'
 
-export const withWarpSourceBoundingClientRect = (BaseComponent) => React.createClass({
+export const withWarpSourceBoundingClientRect = (BaseComponent) => createReactClass({
   contextTypes: {
     warpSource: React.PropTypes.object
   },

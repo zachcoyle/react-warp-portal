@@ -19,6 +19,7 @@
     "prepublish": "npm run build"
   },
   "dependencies": {
+    "create-react-class": "^15.6.2",
     "positioning-strategy": "^2.1.0"
   },
   "peerDependencies": {
